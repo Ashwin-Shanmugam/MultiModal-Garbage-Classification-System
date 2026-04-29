@@ -1,0 +1,17 @@
+# Python dependencies required to run this project
+# Install using:
+# pip install -r requirements.txt
+
+# Core DL
+torch
+torchvision
+
+# Data + images
+Pillow
+numpy
+
+# Metrics / evaluation
+scikit-learn
+
+# Notebook / plotting (used in results.ipynb)
+matplotlib
