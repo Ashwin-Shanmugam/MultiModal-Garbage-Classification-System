@@ -1,7 +1,6 @@
-# Assignment 2 – Garbage Classification Model (PyTorch)
+# Garbage Classification Model (PyTorch)
 
-This repository contains the solution for **Assignment 2: Garbage Classification Model**.  
-The task is to build a **multimodal classification system** using **both images and textual information**, implemented in **PyTorch**.
+This repository contains the solution for a **multimodal classification system** using **both images and textual information**, implemented in **PyTorch**.
 
 The model predicts the correct disposal category for a garbage item:
 - **Black**
@@ -117,8 +116,6 @@ contains:
 - Confusion matrix visualization
 - **Figures of incorrect classifications** (image, text, true label, predicted label)
 
-This notebook satisfies the **mandatory deliverable** specified in the assignment.
-
 ---
 
 ## Results Summary
@@ -126,19 +123,3 @@ This notebook satisfies the **mandatory deliverable** specified in the assignmen
 - Validation accuracy achieved: **~85%**
 - Strong performance on **Green** and **Blue** categories
 - Some confusion between **Black** and **Other**, addressed in error analysis
-
----
-
-## Submission Notes
-
-- This repository is the **only submission** for Assignment 2.
-- The dataset is intentionally excluded.
-- The submission on D2L consists of **the GitHub repository link only**.
-
----
-
-## Course Information
-
-Assignment 2 – Garbage Classification Model  
-Course: **ENSF 617**  
-Implementation uses **PyTorch** and follows techniques covered in class.
